@@ -11,10 +11,6 @@ class Owner
     @@all << self 
   end
 
-  def species
-   "I am a human!"
-  end
-
   def self.all
     @@all
   end
