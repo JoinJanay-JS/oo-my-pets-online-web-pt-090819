@@ -64,8 +64,11 @@ end
   def sell_pets
    pets.each do |p|
      p.mood = "nervous"
-     p.owner = "nil"
+     p.owner = nil
    end
  end 
  
+ 
+ def list_pets
+   "I have  "
 end
