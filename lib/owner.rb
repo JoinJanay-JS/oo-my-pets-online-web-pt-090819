@@ -61,16 +61,11 @@ def pets
 end 
   
 
-  def list_pets
-    "I have #{pets[:dogs].length} dog(s) and #{pets[:cats].length} cat(s)."
-  end
 
   def sell_pets
-   cats.each do |c|
-     c.mood = "nervous"
-     c.owner = "nil"
-     
-     
-  end
-
+   pets.each do |p|
+     p.mood = "nervous"
+     p.owner = "nil"
+   end
+ 
 end
