@@ -60,6 +60,8 @@ def pets
   pets = []
   pets << dogs
   pets << cats
+  pets.flatten
+end 
   
 
   def list_pets
